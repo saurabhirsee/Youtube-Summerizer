@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Summerizer</title>
+        <link rel="stylesheet" href='/static/style.css' />
+    </head>
+    <body>
+        <h1>Summary for Video ID: {{video_id}}</h1>
+        <br>
+        <div align="center">
+            <iframe width="520" height="315"
+        src="{{link_url}}">
+        </div>
+        </iframe>
+        <br>
+        <h3>Summary:</h3>
+
+        <div class="text">
+            <p>{{summary}}</p>
+        </div>
+        <br>
+        <h3>Orignal Transcript:</h3>
+        <div class="text">
+            <p>{{transcript}}</p>
+        </div>
+
+    </body>
+</html>

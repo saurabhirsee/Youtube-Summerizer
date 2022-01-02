@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "YSummarize",
+    "description": "An extension to provide a summarized transcript of a YouTube Subtitle eligible Video.",
+    "browser_action": {
+        "default_icon": {
+            "16": "YsumFavicon/favicon-16x16.png",
+            "32": "YsumFavicon/favicon-32x32.png",
+            "48": "YsumFavicon/favicon.ico"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "YsumFavicon/favicon-16x16.png",
+        "32": "YsumFavicon/favicon-32x32.png",
+        "48": "YsumFavicon/favicon.ico"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/watch?v=*"],
+          "js": ["contentScript.js"]
+        }
+      ],
+    "version": "1.2.22",
+    "permissions": ["activeTab"]
+    
+}

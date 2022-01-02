@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to left, rgb(223, 57, 57) 0%, rgb(235, 230, 171) 100%);
+}
+
+h1 {
+    color: rgb(95, 95, 95);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h3 {
+    color: rgb(38, 16, 43);
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: italic;
+}
+
+.text {
+    color: black;
+    font-family: 'Comic Sans MS';
+    border-radius: .5rem;
+    display: inline-block;
+    border-width: .25rem;
+    margin: .5rem;
+    border-width: .25rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    text-align: justify;
+    padding: 1rem;
+    background-color: #abceb2;
+}
+
